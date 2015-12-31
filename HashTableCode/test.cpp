@@ -1,7 +1,6 @@
 #include <iostream>
 #include <vector>
 #include "HashTable.h"
-
 using namespace std;
  
 void testFunc();
@@ -9,7 +8,7 @@ void testFunc();
 int main()
 {
 	testFunc();
-	//system("pause");
+	system("pause");
 	return 0;
 }
  

@@ -21,8 +21,6 @@ public:
 	bool search(const string&) const;
 	vector<string> get() const;
 
-	void deleteList();
-
 private:
 	class Node
 	{
@@ -34,4 +32,5 @@ private:
 	};
 	Node* front;
 	void deepCopy(const LinkedList& ls);
+	void deleteList();
 };
