@@ -1,3 +1,6 @@
+# Created by Ivan Jonathan Hoo
+# Copyright (c) 2015 Ivan Jonathan Hoo. All rights reserved.
+
 OBJS = test.o HashTable.o LinkedList.o
 CC = g++
 DEBUG = -g
