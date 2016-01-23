@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 #include "HashTable.h"
+
 using namespace std;
  
 void testFunc();
@@ -8,14 +9,13 @@ void testFunc();
 int main()
 {
 	testFunc();
-	system("pause");
 	return 0;
 }
  
 void testFunc()
 {
 	//testing default constructor
-	cout << "Creating ht0 using default constructor...\n\n";
+	cout << "\nCreating ht0 using default constructor...\n\n";
 	HashTable ht0;
 
 	cout << "ht0.maxSize(): " << ht0.maxSize() << endl;
