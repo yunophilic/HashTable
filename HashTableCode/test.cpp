@@ -1,3 +1,6 @@
+//  Created by Ivan Jonathan Hoo
+//  Copyright (c) 2015 Ivan Jonathan Hoo. All rights reserved.
+
 #include <iostream>
 #include <vector>
 #include "HashTable.h"
